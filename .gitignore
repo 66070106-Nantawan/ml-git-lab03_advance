@@ -1,16 +1,17 @@
+ HEAD
 # Python cache
 __pycache__/
 *.pyc
 
-# Data files (ไฟล์ข้อมูลขนาดใหญ่)
+# Data files
 data/*.csv
 data/*.pkl
 
-# Model files (ไฟล์ model)
+# Model files
 models/*.pkl
 models/*.joblib
 
-# Results (ผลลัพธ์ที่ generate ใหม่ได้)
+# Results
 results/*.png
 results/*.json
 
@@ -18,3 +19,7 @@ results/*.json
 !data/.gitkeep
 !models/.gitkeep
 !results/.gitkeep
+
+.env
+*.log
+ d148a88d1e092fea5df435029200abcfa6c49e97
